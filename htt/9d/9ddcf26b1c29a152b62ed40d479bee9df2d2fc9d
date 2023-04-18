@@ -1,0 +1,49 @@
+
+        
+            
+            
+            
+            
+            .o_company_1_layout {
+                font-family: 'Lato';
+
+            
+                &.o_report_layout_boxed {
+                    #total strong {
+                        color: #303e92;
+                    }
+                    #informations strong {
+                        color: #8a90af;
+                    }
+                    h2 span {
+                        color: #303e92;
+                    }
+                    table {
+                        thead {
+                            tr th {
+                                color: #8a90af;
+                            }
+                        }
+                        tbody tr td {
+                            &.o_line_section td {
+                                    background-color: rgba(#303e92, 0.7);
+                                }
+                            &.is-subtotal,
+                                td.o_price_total {
+                                    background-color: rgba(#8a90af, 0.1);
+                                }
+                        }
+                    }
+                }
+                .row > div > table,
+                div#total table {
+                    tr {
+                        &.o_total td {
+                            background-color: rgba(#303e92, 0.9);
+                        }
+                    }
+                }
+            
+            }
+        
+    
